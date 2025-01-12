@@ -1,0 +1,39 @@
+.wrap {
+  position: relative;
+}
+
+.form {
+  padding: 20px;
+  padding-bottom: 5px;
+}
+
+.icon {
+  background-color: transparent;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translate(0, -38%);
+}
+
+.searchInput {
+  border-radius: 3px;
+  border: none;
+  border: 1px solid #20201f;
+  width: 400px;
+  font-size: 16px;
+  padding: 7px 7px 7px 35px;
+}
+.searchInput:focus {
+  border: 2px solid #de4a64;
+}
+
+.noResults {
+  font-size: 16px;
+  color: #666;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sectionMoviePage {
+  padding: 20px;
+}
